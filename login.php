@@ -43,7 +43,6 @@ if ($_SERVER['REQUEST_METHOD'] != 'POST') {
         $returnData = msg(0, 422, 'Your password must be at least 8 characters');
     } else {
         try {
-            // Correct SQL query syntax
             $fetch_user_by_email = "SELECT * FROM users WHERE email = :email";
             $query_stm = $conn->prepare($fetch_user_by_email);
             $query_stm->bindValue(':email', $email, PDO::PARAM_STR);
