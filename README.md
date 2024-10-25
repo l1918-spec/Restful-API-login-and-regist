@@ -1,8 +1,10 @@
 PHP Authentication API with JWT
 
-A simple JWT-based authentication API built with PHP and MySQL. It allows users to log in securely, generates a JWT token, and has been tested using Postman.
+A simple JWT-based authentication API built with PHP and MySQL. 
+It allows users to log in securely, generates a JWT token, and has been tested using Postman.
 
-Features
+
+Features :
 
 User login with JWT token generation
 Password hashing and validation
